@@ -1,0 +1,15 @@
+Public Class Form1
+
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        TreeView1.Nodes.Add("BCA")
+        TreeView1.Nodes(0).Nodes.Add("FY")
+        TreeView1.Nodes(0).Nodes(0).Nodes.Add("SEM1")
+        TreeView1.Nodes(0).Nodes(0).Nodes.Add("SEM2")
+        TreeView1.Nodes(0).Nodes.Add("SY")
+        TreeView1.Nodes(0).Nodes(1).Nodes.Add("SEM3")
+        TreeView1.Nodes(0).Nodes(1).Nodes.Add("SEM4")
+        TreeView1.Nodes(0).Nodes.Add("TY")
+        TreeView1.Nodes(0).Nodes(2).Nodes.Add("SEM5")
+        TreeView1.Nodes(0).Nodes(2).Nodes.Add("SEM6")
+    End Sub
+End Class

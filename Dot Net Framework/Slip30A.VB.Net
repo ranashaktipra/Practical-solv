@@ -1,0 +1,7 @@
+Public Class Form1
+
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        txtNetSal.Text = CInt(txtBasic.Text) + CInt(txtDA.Text) + CInt(txtHRA.Text) + CInt(txtMA.Text) + CInt(txtPF.Text) - CInt(txtPT.Text) -CInt(txtIT.Text)
+        MsgBox(txtName.Text & txtNetSal.Text)
+    End Sub
+End Class

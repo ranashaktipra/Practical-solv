@@ -1,0 +1,12 @@
+Public Class Form6
+    Dim counter As Integer
+    Private Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
+        counter = 0
+        Timer1.Enabled = True
+    End Sub
+    Private Sub Timer1_Tick(ByVal sender As Object, ByVal e As EventArgs) Handles Timer1.Tick
+        counter = counter + 1
+        TextBox1.Text = counter
+    End Sub
+
+End Class

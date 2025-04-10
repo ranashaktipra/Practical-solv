@@ -1,0 +1,29 @@
+Public Class Form1
+    Private Sub RedToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RedToolStripMenuItem.Click
+        Me.BackColor = Color.Red
+    End Sub
+
+    Private Sub GreenToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles GreenToolStripMenuItem.Click
+        Me.BackColor = Color.Green
+    End Sub
+
+    Private Sub BlueToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BlueToolStripMenuItem.Click
+        Me.BackColor = Color.Blue
+    End Sub
+
+    Private Sub MaximizeToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MaximizeToolStripMenuItem.Click
+        Me.WindowState = FormWindowState.Maximized
+    End Sub
+
+    Private Sub MinimizeToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MinimizeToolStripMenuItem.Click
+        Me.WindowState = FormWindowState.Minimized
+    End Sub
+
+    Private Sub CloseToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CloseToolStripMenuItem.Click
+        Me.WindowState = FormWindowState.Normal
+    End Sub
+
+    Private Sub ExToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ExitToolStripMenuItem.Click
+        End
+    End Sub
+End Class
